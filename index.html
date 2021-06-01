@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AeshTech</title>
+    <link rel="stylesheet" href="aos.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/471f9934c1.js"></script>
+</head>
+<body onload="preloader()">
+
+    <!-- ===============================Preloader======================== -->
+
+    <div id="wrapper">
+        <h3 style="margin-top: 10px;">AeshTech</h3>
+        <!-- ----------------Spinner--------------------- -->
+        <div class="loading-spinner"></div>
+
+        <!-- ----------------Bounsing Balls-------------- -->
+        <div class="loading-dots">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+
+    <!-- =====================AeshTech Header======================= -->
+
+    <header class="header">
+        <a href="" class="logo">AeshTech</a>
+        <!-- ===========Theme changer============= -->
+        <input type="checkbox" id="theme" onclick="themechanger(this)" class="themeCheckbox" />  
+        <label for="theme" class="switch"></label>
+
+        <!-- =============Menu icon================ -->
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn">
+            <span class="navicon"></span>
+        </label>
+
+        <ul class="menu">
+            <li><a href=""><i class="fa fa-home fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="blogs/my_first_blog.html">Blogs</a></li>
+            <li><a href="#mobile">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="wavy-navbar">
+            <img src="img/wavey.png">
+        </div>
+    </header>
+
+    <!-- ==========================Showcase==================== -->
+    <section class='showcase'>
+        <div class="typing-container">
+            <img src="img/Aeshtech-icon.png" alt="Not Found" style="width: 36vh;">
+            <span id="type"></span>
+        </div> 
+        <div class="wave"></div>
+    </section>
+    
+    <div id="mobile">
+        <img src="img/devAshish.png" alt="Image not Found">
+    </div>
+    <div class="row">
+        <div class="col-b-4 col-d-4" style="float:none;margin:auto;">
+            <div class="animated-container" data-aos="slide-up">
+                <h1>Ashish Sharma</h1>
+                <ul>
+                        <li><span>&#9654</span><strong>Birthday:</strong>11 January ****</li>
+                        <li><span>&#9654</span><strong>Phone:</strong>+91 7011716560</li>      
+                        <li><span>&#9654</span><strong>Town:</strong>Dadri(G.B.Nagar)</li>        
+                        <li><span>&#9654</span><strong>Email:</strong>ashishpandit5376@gmail.com</li>       
+                        <li><span>&#9654</span><strong>Student:</strong>Bachelor of Technology(CSE)</li>
+                </ul>
+                <div id="social-icons"><a href="https://www.instagram.com/its_ashish_52/"><img src="img/instagram-logo.png" class="insta-icon" alt="image not found"></a><a href="https://twitter.com/DevloperAshish"><img src="img/twitter.png" class="twitter-icon" alt="image not found"></a><a href="https://www.facebook.com/Aeshtech52"><img src="img/facebook.png" class="fb-icon" alt="image not found"></a></div>
+            </div>
+        </div>        
+    </div>
+    <!-- ==============================================Animated Skills blocks========================================================= -->
+    <div class="row">
+        <div class="col-b-7 col-d-7" style="float:none;margin:auto;">
+            <div class="skills-container" id="skills">
+            <h1>My Skills</h1>
+            <div class="progress_title" >
+                <Strong>HTML</Strong><img class="skills-logo" src="img/html-logo.png" data-aos="zoom-in"><strong>99%</strong>
+            </div>
+            <div class="progress_bar" > 
+                <div class="w3-light-grey w3-round-xlarge">
+                    <div class="w3-container w3-blue w3-round-xlarge w3-center" style="width:99%;height: 10px;" data-aos="fade-right"></div>
+                  </div><hr>
+            </div>
+            <div class="progress_title">
+                <Strong>CSS</Strong><img class="skills-logo" src="img/css-logo.png" style="width: 10%;" data-aos="zoom-in"><strong>85%</strong>
+            </div>
+            <div class="progress_bar"> 
+                <div class="w3-light-grey w3-round-xlarge">
+                    <div class="w3-container w3-blue w3-round-xlarge w3-center" style="width:85%;height: 10px;" data-aos="fade-right"></div>
+                  </div><hr>
+            </div>
+            <div class="progress_title">
+                <Strong>Javascript</Strong><img class="skills-logo" src="img/js-logo.png" style="width: 10%;" data-aos="zoom-in"><strong>65%</strong>
+            </div>
+            <div class="progress_bar"> 
+                <div class="w3-light-grey w3-round-xlarge">
+                    <div class="w3-container w3-blue w3-round-xlarge w3-center" style="width:65%;height: 10px;" data-aos="fade-right"></div>
+                </div><hr>
+            </div>
+            <div class="progress_title">
+                <Strong>Bootstrap</Strong><img class="skills-logo" src="img/bootstrap-logo.jpg" style="width:30%;margin:5px 10%" data-aos="zoom-in"><strong>70%</strong>
+            </div>
+            <div class="progress_bar"> 
+                <div class="w3-light-grey w3-round-xlarge">
+                    <div class="w3-container w3-blue w3-round-xlarge w3-center" style="width:70%;height:10px;" data-aos="fade-right"></div>
+                  </div><hr>
+            </div>
+            <div class="progress_title">
+                <Strong>SQL</Strong><img class="skills-logo" src="img/sql-logo.jpg" style="width: 15%;" data-aos="zoom-in"><strong>65%</strong>
+            </div>
+            <div class="progress_bar"> 
+                <div class="w3-light-grey w3-round-xlarge">
+                    <div class="w3-container w3-blue w3-round-xlarge w3-center" style="width:65%;height:10px;" data-aos="fade-right"></div>
+                  </div><hr>
+            </div>
+            <div class="progress_title">
+                <Strong>MySQL</Strong><img class="skills-logo" src="img/mysql-logo.png" style="width: 15%;" data-aos="zoom-in"><strong>70%</strong>
+            </div>
+            <div class="progress_bar"> 
+                <div class="w3-light-grey w3-round-xlarge">
+                    <div class="w3-container w3-blue w3-round-xlarge w3-center" style="width:70%;height:10px;" data-aos="fade-right"></div>
+                  </div><hr>
+            </div>
+            <div class="progress_title">
+                <Strong>Python</Strong><img class="skills-logo" src="img/python-logo.jpg" data-aos="zoom-in"><strong>70%</strong>
+            </div>
+            <div class="progress_bar"> 
+                <div class="w3-light-grey w3-round-xlarge">
+                    <div class="w3-container w3-blue w3-round-xlarge w3-center" style="width:70%;height: 10px;" data-aos="fade-right"></div>
+                  </div><hr>
+            </div>
+            <div class="progress_title">
+                <Strong>PHP</Strong><img class="skills-logo" src="img//php-logo.png" data-aos="zoom-in"><strong>55%</strong>
+            </div>
+            <div class="progress_bar"> 
+                <div class="w3-light-grey w3-round-xlarge">
+                    <div class="w3-container w3-blue w3-round-xlarge w3-center" style="width:55%;height: 10px;" data-aos="fade-right"></div>
+                </div><hr>
+            </div>
+            <div class="progress_title">
+                <Strong>C</Strong><img class="skills-logo" src="img/c-logo.png" data-aos="zoom-in"><strong>50%</strong>
+            </div>
+            <div class="progress_bar"> 
+                <div class="w3-light-grey w3-round-xlarge">
+                    <div class="w3-container w3-blue w3-round-xlarge w3-center" style="width:50%;height: 10px;" data-aos="fade-right"></div>
+                  </div><hr>
+            </div>
+            <span style="color:blueviolet;font-weight:bold;">Hey:-)</span><p style="color: orange;">I am not language dependent. I am passionate to learn about new things and enhancing my skills day to day. I want to become a version of myself.</p>
+        </div>
+        </div>
+    </div>
+
+    <!-- ======================================Gradient Cards============================================ -->
+    <div class="row card-container" id="education">
+        <div class="col-b-2 col-d-2" data-aos="flip-right">
+            <div class="grd-card">
+                <div class="card-content">
+                    <h1>Education</h1>
+                    <br>
+                    <p>
+                        <br><br>
+                        Bachelor of Technology(CSE)<br>
+                        2018-Present<br><br>
+                        Dr. A.P.J. Abdul Kalam Technical University,Uttar Pradesh 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-b-2 col-d-2" data-aos="flip-right">
+            <div class="grd-card">
+                <div class="card-content">
+                    <h1>Soft Skills</h1>
+                    <p>
+                        Effective communication<br><br>
+                        Active Listening<br><br>
+                        Innovative<br><br>
+                        Enthusiastic<br><br>
+                        Work Ethick<br><br>
+                        Fast Learner
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-b-2 col-d-2" data-aos="flip-right">
+            <div class="grd-card">
+                <div class="card-content">
+                    <h1>Certificates</h1>
+                    <p>
+                        Dual certified in Python<br><br>
+                        Programming,Data Structure and Algorithms using Python,IIT Madras (NPTEL)<br>
+                        Python Programming, IIT Kanpur<br><br><br>
+                        ROll No- NPTEL20CS26S1594653
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================Contact Us=========================================== -->
+
+    <div class="row">
+        <div class="contact-container" style="position: relative;" id="contact">
+            <img src="img/Aeshtech-icon.png" alt="Icon not Available" class="aeshtech-icon">
+            <div class="contact-animation" data-aos="flip-down"><h1 style="margin:0;">&#9759 Contact</h1></div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="rgb(146, 0, 204)" fill-opacity="1" d="M0,64L48,74.7C96,85,192,107,288,149.3C384,192,480,256,576,240C672,224,768,128,864,74.7C960,21,1056,11,1152,21.3C1248,32,1344,64,1392,80L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+            <div id="contact-details-container">
+                <div class="contact-details">
+                    <br><br><br>
+                    <i class="fa fa-envelope fa-4x" aria-hidden="true" style="color: white;"></i>
+                    <h1 style="color: white;">Email</h1>
+                    <strong style="color: var(--mysmoke);"><a href="mailto:ashishpandit5376@gmail.com">ashishpandit5376@gmail.com</a></strong><br><br><br>
+                    <i class="fa fa-envelope fa-4x" aria-hidden="true" style="color: white;"></i>
+                    <h1 style="color: white;">Address</h1>
+                    <strong style="color: var(--mysmoke);">Dadri G.B.Nagar,<br>Greater Noida,UP,203207</strong><br><br><br>
+                    <i class="fa fa-phone-square fa-4x fa-flip-both" aria-hidden="true" style="color:white;"></i>
+                    <h1 style="color: white;">Phone</h1>
+                    <strong style="color: var(--mysmoke);">+91 7011716560<br>Feel free to contact me for any information in between 10 Am-11 Pm.</strong>
+                </div>
+            </div>
+            <div class="svg2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgb(146, 0, 204)" fill-opacity="1" d="M0,288L1440,0L1440,320L0,320Z"></path></svg>
+            </div>
+        </div>
+                <div class="myvision" style="position: relative;">
+                    <h1 style="font-weight: 700;">My Vision</h1>
+                    <p style="margin: 10px;">Over the years i have grown in all aspects and continue to every day — but my goals have remained the same. Have fun while working with the best technology at hand. Design and create the finest product i can. Compete with the top in the industry. Learn from the best.<br><br>
+                    Focus on the essential. Cultivate openness and respect in all communication. Be friends with one another. Learn constantly. Share what i know.</p><br><br>
+                    <strong style="color:var(--myalert);">MR. Ashish Sharma</strong><br>
+                    <emphasize style="color: brown;">Software Developer at Student</emphasize><br>
+                    <img src="img/signature.png" alt="signature not found" class="signature">
+
+                    <img src="img/illustration-41.png" class="illustration" alt="Not Available">
+        </div>
+    </div>
+    
+    
+    <!-- ====================================================Footer======================================================= -->
+    
+    <footer class="footer-container">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#000" fill-opacity="1" d="M0,32L720,224L1440,0L1440,320L720,320L0,320Z"></path>
+        </svg>
+        <div class="footer">
+            <a href="https://www.instagram.com/its_ashish_52/"><i class="fa fa-instagram fa-2x" aria-hidden="true" style="color: white;"></i></a>
+            <a href="https://twitter.com/DevloperAshish"><i class="fa fa-twitter fa-2x" aria-hidden="true" style="color: white;"></i></a>
+            <a href="https://www.facebook.com/Aeshtech52"><i class="fa fa-facebook fa-2x" aria-hidden="true" style="color: white;"></i></a>
+            <br><hr>
+            <strong>&copy 2020 AeshTech. All right reserved.</strong>
+        </div>
+    </footer>
+    
+    
+    <!-- ===========Scroll back to top==============  -->
+    <a href="#" id="scroll" style="display: none;"><span></span></a>
+
+<!-- ====================Scripts============================ -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="aos.js"></script>
+<script type="text/javascript" src="myapp.js" ></script>
+<script type="text/javascript" src="typed.js"></script>
+<script type="text/javascript" src="typing-txt.js"></script>
+</body>
+</html>
